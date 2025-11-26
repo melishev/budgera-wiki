@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  compatibilityDate: "2025-05-15",
   modules: ["@nuxt/content", "nuxt-studio"],
   studio: {
     // Studio admin login route
@@ -13,5 +14,20 @@ export default defineNuxtConfig({
       branch: 'master',
       rootDir: '' // optional: location of your content app
     }
+  },
+  nitro: {
+    preset: 'cloudflare_module',
+    cloudflare: {
+      deployConfig: true,
+      wrangler: {
+        d1_databases: [
+          {
+            binding: 'DB',
+            database_name: 'budgera-wiki',
+            database_id: process.env.DB_ID
+          }
+        ]
+      },
+    },
   }
 })
