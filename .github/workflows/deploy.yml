@@ -42,6 +42,9 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+          build-args: |
+            STUDIO_GITHUB_CLIENT_ID=${{ secrets.STUDIO_GITHUB_CLIENT_ID }}
+            STUDIO_GITHUB_CLIENT_SECRET=${{ secrets.STUDIO_GITHUB_CLIENT_SECRET }}
 
       - name: Trigger Deploy in Main Repo
         uses: peter-evans/repository-dispatch@v4

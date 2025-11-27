@@ -15,7 +15,4 @@ export default defineNuxtConfig({
       rootDir: '', // optional: location of your content app
     },
   },
-  nitro: {
-    preset: 'node-server',
-  },
 })

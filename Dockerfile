@@ -2,6 +2,14 @@
 FROM node:22-alpine AS build
 WORKDIR /app
 
+# Accept build arguments for GitHub OAuth credentials
+ARG STUDIO_GITHUB_CLIENT_ID
+ARG STUDIO_GITHUB_CLIENT_SECRET
+
+# Convert build args to environment variables for Nuxt build
+ENV STUDIO_GITHUB_CLIENT_ID=${STUDIO_GITHUB_CLIENT_ID}
+ENV STUDIO_GITHUB_CLIENT_SECRET=${STUDIO_GITHUB_CLIENT_SECRET}
+
 # Copy package.json and package-lock.json
 COPY package.json package-lock.json* ./
 
