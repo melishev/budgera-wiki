@@ -13,15 +13,17 @@ seo:
 
 #headline
 Новая и обновленная
+::
 
-#links
-  :::u-button
-  ---
-  color: neutral
-  size: xl
-  to: /first-steps/initial-account-setup
-  trailing-icon: i-lucide-arrow-right
-  ---
-  Перейти
+::u-page-section
+  :::u-page-grid
+    :::u-page-card
+    ---
+    title: Первые шаги
+    description: Узнайте как правильно начать вести учет личных финансов и использовать приложение на максимум
+    to: /first-steps/initial-account-setup
+    variant: soft
+    ---
+    :::
   :::
 ::
