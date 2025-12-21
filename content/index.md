@@ -16,26 +16,27 @@ seo:
 ::
 
 ::u-page-section
-  :::u-page-grid
-    :::u-page-card
-    ---
-    title: Первые шаги
-    description: Узнайте как правильно начать вести учет личных финансов и использовать приложение на максимум
-    to: /first-steps/initial-account-setup
-    variant: soft
-    ---
-    :::
-  :::
+::u-page-grid
+::u-page-card
+---
+title: Первые шаги
+description: Узнайте как правильно начать вести учет личных финансов и использовать приложение на максимум
+to: /first-steps/initial-account-setup
+variant: soft
+---
+:::
+:::
 ::
+
 ::u-page-section
-  :::u-page-grid
-    :::u-page-card
-    ---
-    title: Отчёты и аналитика
-    description: Узнайте обо всех возможных отчётах и как вести аналитику
-    to: /analytics-and-reports/Plans
-    variant: soft
-    ---
-    :::
-  :::
+::u-page-grid
+::u-page-card
+---
+title: Отчёты и аналитика
+description: Узнайте обо всех возможных отчётах и как вести аналитику
+to: /analytics-and-reports/Plans
+variant: soft
+---
+:::
+:::
 ::
