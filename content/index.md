@@ -14,7 +14,7 @@ seo:
 #headline
 Максимально подробный
 ::
-
+```
 ::u-page-section
 ::u-page-grid
 ::::u-page-card
@@ -37,4 +37,5 @@ class: col-span-2 md:col-span-1
 ---
 ::::
 :::
+```
 ::
