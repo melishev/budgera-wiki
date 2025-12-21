@@ -19,32 +19,28 @@ seo:
 ::::u-page-card
 ---
 spotlight: true
-#title
-Первые шаги [в Дзен-Мани]{.text-primary}
-
-#description
-Узнайте как правильно начать вести учет личных финансов и использовать приложение на максимум
-
 to: /first-steps/initial-account-setup
 variant: soft
 class: group col-span-2 lg:col-span-1
 ---
+  #title
+  [Первые шаги]{.text-primary}
+
+  #description
+  Узнайте как правильно начать вести учет личных финансов и использовать приложение на максимум
 ::::
 
 ::::u-page-card
 ---
 spotlight: true
-
-#title
-Отчёты и аналитика [в Дзен-Мани]{.text-primary}
-
-#description
-Узнайте обо всех возможных отчётах и как вести аналитику
-
 to: /analytics-and-reports/Plans
 variant: soft
 class: group col-span-2 lg:col-span-1
 ---
+  #title
+  [Отчёты и аналитика]{.text-primary}
+
+  #description
+  Узнайте обо всех возможных отчётах и как вести аналитику
 ::::
 :::
-::
