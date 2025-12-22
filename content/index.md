@@ -33,7 +33,7 @@ class: group col-span-2 lg:col-span-1
 ::::u-page-card
 ---
 spotlight: true
-to: /analytics-and-reports/Plans
+to: /analytics-and-reports/plans
 variant: soft
 class: group col-span-2 lg:col-span-1
 ---
