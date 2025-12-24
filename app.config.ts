@@ -5,4 +5,9 @@ export default defineAppConfig({
   header: {
     title: ' ',
   },
+  ui: {
+    colors: {
+      primary: 'red',
+    },
+  },
 })

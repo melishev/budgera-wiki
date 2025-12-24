@@ -1,7 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
-  modules: ['@nuxt/content', 'nuxt-studio'],
+  modules: ['@nuxt/ui', '@nuxt/content', 'nuxt-studio'],
+  css: ['~/assets/css/main.css'],
   studio: {
     // Studio admin login route
     route: '/_studio', // default
