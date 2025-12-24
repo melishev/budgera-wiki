@@ -16,7 +16,7 @@ const { data: page } = await useAsyncData(route.path, () => {
         src: author.avatar.src,
         icon: 'i-lucide-user',
       }"
-      :to="author.to"
+      :to="author?.to"
       target="_blank"
     />
   </div>
