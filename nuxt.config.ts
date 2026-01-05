@@ -16,7 +16,7 @@ export default defineNuxtConfig({
       rootDir: '', // optional: location of your content app
     },
     i18n: {
-      defaultLocale: 'en',
+      defaultLocale: 'ru',
     },
   },
 })

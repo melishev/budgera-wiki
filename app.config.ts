@@ -1,6 +1,6 @@
 export default defineAppConfig({
   docus: {
-    locale: 'en',
+    locale: 'ru',
   },
   header: {
     title: ' ',
