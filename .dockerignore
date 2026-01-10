@@ -1,6 +1,8 @@
 node_modules
 .output
 .git
+.gitignore
+.github
 .nuxt
 .env
 dist

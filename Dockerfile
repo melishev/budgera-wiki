@@ -11,10 +11,10 @@ ENV STUDIO_GITHUB_CLIENT_ID=${STUDIO_GITHUB_CLIENT_ID}
 ENV STUDIO_GITHUB_CLIENT_SECRET=${STUDIO_GITHUB_CLIENT_SECRET}
 
 # Copy package.json and package-lock.json
-COPY package.json package-lock.json* ./
+COPY package.json package-lock.json ./
 
 # Install dependencies
-RUN npm install
+RUN npm ci
 
 # Copy the entire project
 COPY . ./
