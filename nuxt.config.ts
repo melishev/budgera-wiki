@@ -22,4 +22,7 @@ export default defineNuxtConfig({
       defaultLocale: 'ru',
     },
   },
+  ogImage: {
+    fonts: ['Manrope:700']
+  }
 })

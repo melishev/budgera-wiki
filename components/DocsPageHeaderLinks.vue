@@ -1,4 +1,6 @@
 <script setup lang="ts">
+defineOgImageComponent('OgImage')
+  
 const route = useRoute()
 
 const { data: page } = await useAsyncData(route.path, () => {
