@@ -44,5 +44,19 @@ seo:
     #description
     Узнайте обо всех возможных отчётах и как вести аналитику
     ::::
+    
+    ::::u-page-card
+    ---
+    spotlight: true
+    class: group col-span-2 lg:col-span-1
+    to: life-hacks/categories-management
+    variant: soft
+    ---
+    #title
+    Лайфхаки и хитрости [в Дзен-Мани]{.text-primary}
+
+    #description
+    Расскажем о методах, которые улучшат вашу эффективность учёта финансов
+    ::::
   :::
 ::
