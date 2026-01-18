@@ -1,6 +1,6 @@
 export default defineAppConfig({
   docus: {
-    locale: 'ru',
+    locale: 'en',
   },
   header: {
     title: ' ',
@@ -12,5 +12,5 @@ export default defineAppConfig({
   },
   socials: {
     telegram: 'https://t.me/+jUISJXdG2KxiMjU6',
-  }
+  },
 })
