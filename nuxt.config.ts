@@ -1,5 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  site: {
+    name: 'Budgera',
+  },
   compatibilityDate: '2025-05-15',
   modules: ['@nuxt/ui', '@nuxt/content', 'nuxt-studio'],
   css: ['~/assets/css/main.css'],

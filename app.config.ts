@@ -1,9 +1,7 @@
 export default defineAppConfig({
+  github: false,
   docus: {
     locale: 'en',
-  },
-  header: {
-    title: ' ',
   },
   ui: {
     colors: {
